@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+<style type="text/css">
+    label{width:170px;
+    display: inline-block}
+</style>
+<body>
+   <h1>ISCP Employee Registration Form</h1>
+   <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" 
+   alt="ISCP Logo"
+   width="180px"
+   id="ISCP"/><br />
+   <iframe width="560" height="315" 
+   src="https://www.youtube-nocookie.com/embed/aCUhfPAyDHY?si=MeMp3iKDsWTvDiGp" 
+   title="YouTube video player" 
+   frameborder="0" 
+   allow="accelerometer; autoplay; 
+   clipboard-write; encrypted-media; gyroscope; 
+   picture-in-picture; web-share" allowfullscreen>
+</iframe>
+<ul><ul>
+    <li><strong>Basic information</strong></li>
+    <label for="first_name">First name:</label>
+    <input type="text"
+    placeholder="ex. Juan"
+    id="first name"/><br />
+    <label for="last_name">Last name:</label>
+    <input type="text"
+    placeholder="ex.Santos"
+    id="last_name"/><br />
+    <label for="birthplace">Place of birth:</label>
+    <input type="text"
+    placeholder="ex. Guagua, Pampanga"
+    id="birthdplace"
+    maxlength="10" size="25"/><br />
+    <label for="bday">Birthdate:</label>
+    <input type="date"
+    id="bday"/><br />
+    
+    <label for=civil_status>Civil Status:</label>
+    <select name="civil_status" id="civil_status">
+      <option disabled selected>Select one...</option>
+      <option value="single">Single</option>
+      <option value="married">Married</option>
+      <option value="separated">Separated</option>
+      <option value="widowed">Widowed</option>
+      <option value="other">Other</option></select><br />
+    
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender">
+    <option disabled selected>Select one...</option>
+    <option value="mael">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option></select><br />
+    <li><strong>Contact information</strong></li>
+    <label for="email_address">Email address:</label>
+      <input
+        type="email"
+        placeholder="ex. jdelacruz@gmail.com"
+        id="email_address"
+      /><br />
+    <label for="contact_number">Contact number:</label>
+    <input type="text" placeholder="ex. 09124564345 (mobile)" id="contact_number"><br />
+    <label for="contact_number">Contact number:</label>
+    <input type="text" placeholder="telephone" id="contact_number"><br />
+    <li><strong>Address</strong></li>
+    <label for="street">Street number:</label>
+    <input type="text" placeholder="ex. 014" id="street"><br />
+    <label for="street_name">Street name:</label>
+    <input type="text" id="street_name"><br />
+    <label for="brgy">Barangay:</label>
+    <input type="text" placeholder="ex. San Jose" id="brgy"><br />
+    <label for="city">City/Town:</label>
+    <input type="text" placeholder="Guagua" id="city"><br />
+    <label for="province">Province:</label>
+    <input type="text" id="province"><br />
+    <label for="full_address">Full address:</label>
+    <input type="full_address" 
+    placeholder="ex.Florida Hyts, San Isidro, Guagua, Pampanga" 
+    id="full_address"
+    size="50"><br />
+    <li><strong>Government information</strong></li>
+    <label for="sss">SSS ID:</label>
+    <input type="text" id="sss"><br />
+    <label for="pagibig_id">Pag-Ibig ID:</label>
+    <input type="text" id="pagibig_id"><br />
+    <label for="2x2">Upload 2x2 picture:</label>
+    <input type="file" id="2x2"><br />
+    <label for="picture_ID">Upload picture of government ID:</label>
+    <input type="file" id="picture_ID"><br />
+    <li><strong>Account information</strong></li>
+    <label for="username">Username:</label>
+    <input type="text" id="username"><br />
+    <label>Email address:</label>
+    <input
+        type="email"
+        placeholder="ex. jdelacruz@gmail.com"
+        id="email_address">
+      <br />
+      <label for="pw">Password:</label>
+      <input
+        type="password"
+        placeholder="at least 6 characters"
+        id="pw"
+      /><br />
+      <label for="confirm_pw">Confirm password:</label>
+      <input
+        type="password"
+        placeholder="re-enter password"
+        id="confirm_pw"
+      /><br />
+    <label for="profileimage">Upload profile image:</label>
+    <input type="file" id="profileimage"><br />
+    <li><strong>Have you experienced any of the following in the last 30 days?</strong></li>
+    <input
+    type="checkbox"
+    name="coughing"
+    value="coughing"
+    id="coughing"
+   
+  />
+  <label for="coughing">Coughing</label><br />
+  <input
+    type="checkbox"
+    name="fever"
+    value="fever"
+    id="fever"
+  />
+  <label for="fever">Fever</label><br />
+  <input
+    type="checkbox"
+    name="headache"
+    value="headache"
+    id="headache"
+  />
+  <label for="headache">Headache</label><br />
+  <input
+    type="checkbox"
+    name="common_cold"
+    value="common_cold"
+    id="common_cold"
+  />
+  <label for="common_cold">Common cold</label><br />
+  <input
+    type="checkbox"
+    name="body_ache"
+    value="body_ache"
+    id="body_ache"
+  />
+  <label for="body_ache">Body ache</label><br />
+  <input
+    type="checkbox"
+    name="sore"
+    value="sore"
+    id="sore"
+  />
+  <label for="sore">Sore throat</label><br />
+  <input
+    type="checkbox"
+    name="tired"
+    value="tired"
+    id="tired"
+  />
+  <label for="tired">Tiredness</label><br />
+  <input
+    type="checkbox"
+    name="loss_smell"
+    value="loss_smell"
+    id="loss_smell"
+  />
+  <label for="loss_smell">Loss of smell</label><br />
+  
+    <li><strong>Give a short description about yourself.</strong></li>
+<textarea>Enter 3-5 sentences!</textarea><br/>
+<input type="submit" value="Submit" />
+</ul></ul>
+
+<footer>
+<p>All rights reserved @April Joy Ipac</p>
+</footer>
+</body>
+</html>

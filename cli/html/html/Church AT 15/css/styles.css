@@ -1,0 +1,137 @@
+table {
+    border-width: 4px 4px 4px 4px;
+    border-style: solid dotted dashed none;
+    border-color: black;
+    border-collapse: collapse;
+
+}
+body{
+    font-family: Comic Sans MS, cursive;
+margin: 0px;
+background-image: url(tree.jpg);
+background-size: cover;
+background-repeat: repeat-x;
+background-attachment: fixed;
+}
+#nav_bar {
+    background-color: rgb(70, 130, 180);
+color: white;
+width: 100%;
+text-align: center;
+padding: 10px 50px 10px 50px}
+#church_banner {
+    text-align: center;
+    margin-top: 10px;
+}
+#church_ban {
+    width: 450px
+}
+#ministries_heading {
+    text-align: center
+}
+
+#min_heading:hover {
+    color: yellow;
+}
+#min_heading {
+    color: rgb(70, 130, 180)
+}
+#pastor {
+    display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 100px;
+        margin-right: 100px;
+}
+
+}
+#in_pastor {
+    width: 350px; 
+    margin-right: 20px
+}
+#p {
+    font-size: 130%
+}
+#free_huell {
+    font-size: 200%; 
+    color: rgb(70, 130, 180)
+}
+
+#free_huell:hover {
+    color: yellow
+
+}
+#p_test {
+    font-size: 200%
+}
+#pic_test {
+    color: rgb(255, 0, 216);
+    font-size: 100%;
+text-decoration-line: none;
+text-decoration-thickness: 1px
+
+}
+
+#pic_test:visited {
+    color: red
+}
+
+#pic_test:link {
+    color: green
+}
+
+#pic_test:active {
+    color: magenta
+}
+
+
+
+#cross {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end
+}
+#gold_cross {
+    width: 120px
+}
+#table_ul {
+    list-style-position: inside;
+    list-style-type: circle;
+    text-align: center
+          
+}
+.footer {
+    text-align: center;
+        margin-top: 50px;
+        font-size: 75%;
+        color: rgb(160, 160, 160)
+}
+#overlay {
+    background-color: rgba(52, 39, 39, 0.153);
+    margin: 0 100px 0 100px
+}
+#choir-section {
+    width: 150px;
+    height: 150px;
+    
+    
+}
+#choir-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle(50%)
+}
+#choir-image:hover {
+    width: 50px;
+    height: 50px
+}
+
+#listtest {
+    list-style-position: inside;
+   list-style-type: square
+}
+
+list-style-image: url(check.png)
+ 
+background-attachment: fixed
